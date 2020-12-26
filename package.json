@@ -1,22 +1,31 @@
 {
-    "name": "forkify",
-    "version": "1.0.0",
-    "description": "Recipe Restaurent App",
-    "default": "index.js",
-    "scripts": {
-        "start": "parcel index.html",
-        "build": " parcel build index.html --dist-dir ./dist"
-    },
-    "author": "Wajahat Khan",
-    "license": "ISC",
-    "devDependencies": {
-        "parcel": "^2.0.0-beta.1",
-        "sass": "^1.29.0"
-    },
-    "dependencies": {
-        "core-js": "^3.7.0",
-        "fractional": "^1.0.0",
-        "promise": "^8.1.0",
-        "regenerator-runtime": "^0.13.7"
-    }
+  "name": "exit",
+  "version": "1.0.0",
+  "description": "Recipe Restaurent App",
+  "default": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": " parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Wajahat Khan",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.1",
+    "sass": "^1.29.0"
+  },
+  "dependencies": {
+    "core-js": "^3.7.0",
+    "fractional": "^1.0.0",
+    "promise": "^8.1.0",
+    "regenerator-runtime": "^0.13.7"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wajahat4/wajahat-forkify-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wajahat4/wajahat-forkify-app/issues"
+  },
+  "homepage": "https://github.com/wajahat4/wajahat-forkify-app#readme"
 }
